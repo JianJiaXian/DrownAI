@@ -22,7 +22,7 @@ This project is published at IEEE:
 
 ---
 
-## 🧠 Method Overview
+##  Method Overview
 
 This work proposes a real-time drowning detection system based on human skeletal motion analysis using AI techniques:
 
@@ -40,7 +40,7 @@ This work proposes a real-time drowning detection system based on human skeletal
 
 ---
 
-## 📊 Experimental Results
+##  Experimental Results
 
 - Training data collected through **simulated drowning scenarios** in a swimming pool.
 - Final classification accuracy: **89.4%**
@@ -56,18 +56,18 @@ This work proposes a real-time drowning detection system based on human skeletal
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 - `src/` - Main source code
 - `model/` - Pretrained classifier (`.pickle`)
 - `data_test/` - Example video for testing
 - `output/` - Output results and visualizations
 
-> 🔗 Additional data, pretrained models and demo videos are hosted on [Google Drive](https://drive.google.com/drive/folders/1LpkQqHllmBfhozYpiUWEP-tihkzgzDVC?usp=sharing)
+>  Additional data, pretrained models and demo videos are hosted on [Google Drive](https://drive.google.com/drive/folders/1LpkQqHllmBfhozYpiUWEP-tihkzgzDVC?usp=sharing)
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Environment Setup
 
@@ -91,7 +91,7 @@ python setup.py install
 
 ---
 
-## 🧪 Quick Test
+##  Quick Test
 
 To test on the sample video:
 
@@ -112,7 +112,7 @@ python setup.py install
 
 ---
 
-## 📚 Citation
+##  Citation
 
 If you use this code or find it helpful, please consider citing our work:
 
@@ -128,7 +128,7 @@ If you use this code or find it helpful, please consider citing our work:
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 This work is based on:
 - [ildoonet/tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation)
@@ -137,7 +137,7 @@ This work is based on:
 
 ---
 
-## 📬 Contact
+##  Contact
 
 If you have any questions or suggestions, feel free to open an issue or reach me at:  
 **Jia-Xian Jian** – `allensa119625@gmail.com`
