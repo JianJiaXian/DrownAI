@@ -1,5 +1,5 @@
 
-# 💧 Drown_Recognition: Drowning Detection using Pose Estimation
+# 💧 DrownAI: Drowning Detection using Pose Estimation
 
 [![IEEE Paper](https://img.shields.io/badge/IEEE-Publication-blue)](https://ieeexplore.ieee.org/document/9704884)
 
