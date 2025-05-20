@@ -107,4 +107,4 @@ This work is based on:
 ## 📬 Contact
 
 If you have any questions or suggestions, feel free to open an issue or reach me at:  
-**Jia-Xian Jian (賈嘉賢)** – `jiaxian[dot]jian[at]ncku.edu.tw`
+**Jia-Xian Jian** – `allensa119625@gmail.com`
