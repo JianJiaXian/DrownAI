@@ -22,6 +22,40 @@ This project is published at IEEE:
 
 ---
 
+## 🧠 Method Overview
+
+This work proposes a real-time drowning detection system based on human skeletal motion analysis using AI techniques:
+
+1. **Pose Estimation**:
+   - Uses **OpenPose** with a lightweight **Thin-MobileNet** backbone to detect 13 body keypoints.
+   - Camera is mounted underwater; pose estimation remains accurate despite splashes.
+
+2. **Feature Extraction**:
+   - Extracts joint coordinates and calculates geometric angles between limbs.
+   - Converts the skeleton data into structured feature vectors.
+
+3. **Action Classification**:
+   - A shallow **Recurrent Neural Network (RNN)** is trained to classify actions as either “drowning” or “normal”.
+   - The system is optimized for real-time operation with minimal GPU load.
+
+---
+
+## 📊 Experimental Results
+
+- Training data collected through **simulated drowning scenarios** in a swimming pool.
+- Final classification accuracy: **89.4%**
+- Evaluation metrics:
+
+| Class     | Precision | Recall | F1-Score |
+|-----------|-----------|--------|----------|
+| Drowning  | 0.98      | 0.67   | 0.79     |
+| Normal    | 0.96      | 1.00   | 0.98     |
+| **Macro Avg** | **0.97**  | **0.83** | **0.89**   |
+
+> In most realistic simulated drowning situations, the system could correctly identify the drowning behavior with high precision.
+
+---
+
 ## 📁 Project Structure
 
 - `src/` - Main source code
@@ -87,7 +121,6 @@ If you use this code or find it helpful, please consider citing our work:
   title={A Drowning Detection System Based on Human Pose Estimation and Deep Learning},
   author={Jian, Jia-Xian and others},
   booktitle={2022 International Symposium on Computer, Consumer and Control (IS3C)},
-  pages={XXX--XXX},
   year={2022},
   organization={IEEE}
 }
