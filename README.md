@@ -12,7 +12,7 @@
 
 ---
 
-## 📄 Paper
+##  Paper
 
 This project is published at IEEE:
 
